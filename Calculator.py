@@ -45,6 +45,6 @@ import sysclass Calculator(object) :
     @staticmethod
     def  addition( num1,  num2) :
         # Write Logic to produce the result when we sum two numbers
-        return 0
+        return num1 + num2
     if __name__=="__main__":
         Calculator.main(sys.argv)
